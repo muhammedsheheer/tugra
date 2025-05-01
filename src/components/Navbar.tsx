@@ -61,12 +61,12 @@ const Navbar = ({
             >
               Menu<span className="text-xl text-[#FEC679]">+</span>
             </Link>
-            <Link
+            {/* <Link
               href={"/about-us"}
               className="font-open_sans text-sm font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
               About<span className="text-xl text-[#FEC679]">+</span>
-            </Link>
+            </Link> */}
             {/* <DropdownMenu>
               <DropdownMenuTrigger asChild className="cursor-pointer">
                 <div className="font-open_sans text-sm font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#fff]">
