@@ -209,7 +209,7 @@ const CarouselPrevious = React.forwardRef<
       className={cn(
         "absolute h-14 w-14 rounded-full bg-[#0E171A]",
         orientation === "horizontal"
-          ? "-left-16 top-1/2 -translate-y-1/2 md:-left-12"
+          ? "-left-16 top-1/2 -translate-y-1/2 md:-left-14"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
         className,
       )}

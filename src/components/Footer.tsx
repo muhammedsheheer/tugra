@@ -5,8 +5,9 @@ import { Icons } from "./Icon";
 
 const Footer = ({}) => {
   return (
-    <footer className="h-full w-full bg-[#000] px-4 pt-12 lg:px-10 lg:pt-24">
-      <div className="flex flex-col gap-4 md:gap-6">
+    <footer className="h-full w-full bg-[#000]">
+      <div className="h-[1px] w-full border-b-[1px] border-b-[#CFAC6A]" />
+      <div className="flex flex-col gap-4 px-4 pt-12 md:gap-6 lg:px-10 lg:pt-24">
         <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-1">
           <Link href={"/"}>
             <Image
@@ -239,6 +240,7 @@ const Footer = ({}) => {
           </div>
         </div>
       </div>
+      <div className="mb-1 h-[1px] w-full border-b-[1px] border-b-[#CFAC6A]" />
     </footer>
   );
 };

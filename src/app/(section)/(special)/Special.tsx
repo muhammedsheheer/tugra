@@ -28,7 +28,7 @@ const Special = ({}) => {
         <div>
           <Link href={"/menu"}>
             <Button
-              className="relative z-40 mt-4 flex items-center justify-center gap-3 px-10 py-7 uppercase md:hidden"
+              className="relative z-40 mt-4 flex items-center justify-center gap-3 px-10 py-7 uppercase text-[#fff]"
               variant="imageInverted"
             >
               View Menu

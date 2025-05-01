@@ -14,13 +14,13 @@ const About: React.FC = () => {
           Hayes-Bromley serving contemporary Mediterranean Food” 
         </p>
       </div>
-      <div className="absolute -top-20 left-44 z-0 hidden md:block">
+      <div className="absolute -top-24 left-44 z-0 hidden md:block">
         <Image
           src={"/images/home/about/bg.png"}
           width={160}
           height={160}
           alt="logo"
-          className="h-[600px] w-full"
+          className="z-0 h-[650px] w-full"
         />
       </div>
       <div className="flex flex-col gap-6 md:gap-28">
@@ -47,7 +47,7 @@ const About: React.FC = () => {
         </div>
         <div className="flex flex-row items-start justify-start gap-2 md:gap-8">
           <h1
-            className="font-open_sans text-9xl font-[400] uppercase md:text-[25vw]"
+            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -63,10 +63,10 @@ const About: React.FC = () => {
             width={160}
             height={160}
             alt="logo"
-            className="mt-5 h-28 md:mt-20 md:h-80 md:w-80"
+            className="z-50 mt-3 h-16 md:mt-16 md:h-80 md:w-80"
           />
           <h1
-            className="font-open_sans text-9xl font-[400] uppercase md:text-[25vw]"
+            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -78,7 +78,7 @@ const About: React.FC = () => {
             U
           </h1>
           <h1
-            className="font-open_sans text-9xl font-[400] uppercase md:text-[25vw]"
+            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -90,7 +90,7 @@ const About: React.FC = () => {
             G
           </h1>
           <h1
-            className="font-open_sans text-9xl font-[400] uppercase md:text-[25vw]"
+            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -102,7 +102,7 @@ const About: React.FC = () => {
             R
           </h1>
           <h1
-            className="font-open_sans text-9xl font-[400] uppercase md:text-[25vw]"
+            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",

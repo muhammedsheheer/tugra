@@ -42,7 +42,7 @@ const Nova: React.FC = () => {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
-              className="z-50 h-[150px] w-full object-cover md:h-[400px]"
+              className="z-50 h-[150px] w-full object-cover md:h-[450px]"
             />
             <motion.img
               src={"/images/home/nova/2.png"}
@@ -53,7 +53,7 @@ const Nova: React.FC = () => {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
-              className="z-50 h-[150px] w-full object-cover md:h-[400px]"
+              className="z-50 h-[150px] w-full object-cover md:h-[450px]"
             />
             <motion.img
               src={"/images/home/nova/3.png"}
@@ -64,7 +64,7 @@ const Nova: React.FC = () => {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
-              className="h-[150px] w-full object-cover md:h-[400px]"
+              className="h-[150px] w-full object-cover md:h-[450px]"
             />
             <motion.img
               src={"/images/home/nova/4.png"}
@@ -75,7 +75,7 @@ const Nova: React.FC = () => {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
-              className="h-[150px] w-full object-cover md:h-[400px]"
+              className="h-[150px] w-full object-cover md:h-[450px]"
             />
             <motion.img
               src={"/images/home/nova/5.png"}
@@ -86,7 +86,7 @@ const Nova: React.FC = () => {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
-              className="h-[150px] w-full object-cover md:h-[400px]"
+              className="h-[150px] w-full object-cover md:h-[300px]"
             />
             <motion.img
               src={"/images/home/nova/6.png"}
@@ -97,7 +97,7 @@ const Nova: React.FC = () => {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
-              className="h-[150px] w-full object-cover md:h-[400px]"
+              className="h-[150px] w-full object-cover md:h-[300px]"
             />
           </div>
         </div>

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Reservation: React.FC = () => {
   return (
     <section
-      className="relative h-[92vh] w-full bg-cover bg-center bg-no-repeat"
+      className="relative h-screen w-full bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/images/home/reservation/bg1.png')" }}
     >
       <div className="absolute inset-0 flex justify-center md:hidden">
