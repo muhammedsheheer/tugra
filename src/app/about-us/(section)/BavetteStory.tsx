@@ -36,7 +36,7 @@ const BavetteStory = ({}) => {
               hospitality has remained steadfast. Every ingredient is
               thoughtfully chosen, every dish is crafted with care, and every
               bite is a celebration of refined taste. <br />
-              At Tugra, we don't just serve food—we tell stories through flavor.
+              At Tugra, we don`t just serve food—we tell stories through flavor.
               As we continue to grow, our mission is unwavering: to fuse
               culinary artistry with exceptional taste and deliver a dining
               journey like no other.

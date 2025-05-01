@@ -18,7 +18,7 @@ const Hero = ({}) => {
                 crafted with passion and precision. From the finest
                 hand-selected ingredients to meticulously developed recipes, we
                 deliver a dining experience where artistry meets flavor. Whether
-                you're enjoying a signature entrée or delighting in a luxurious
+                you`re enjoying a signature entrée or delighting in a luxurious
                 dessert, every bite reflects our commitment to quality,
                 creativity, and culinary brilliance.
               </p>
