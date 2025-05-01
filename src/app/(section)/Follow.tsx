@@ -7,13 +7,13 @@ import { Icons } from "@/components/Icon";
 const Follow: React.FC = () => {
   return (
     <section className="relative h-full w-full bg-[#070D0F] pt-16 md:pt-32">
-      <div className="absolute left-0 top-0 z-0 md:-top-36 md:left-2">
+      <div className="absolute left-0 top-0 z-0 md:-top-32 md:left-2">
         <Image
           src={"/images/home/follow/bg.png"}
           width={160}
           height={160}
           alt="logo"
-          className="h-[300px] w-full object-cover md:h-[1200px] md:w-[1200px]"
+          className="h-[300px] w-full object-cover md:h-[900px] md:w-[900px]"
         />
       </div>
       {/* big screen */}
