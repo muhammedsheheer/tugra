@@ -1,0 +1,37 @@
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+
+const Hero: React.FC = () => {
+  return (
+    <section className="relative h-screen w-full overflow-hidden">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 h-full w-full object-cover"
+      >
+        <source src="/video/bg.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div className="absolute inset-0 bg-black/50"></div>
+
+      <div className="relative z-40 flex h-full flex-col items-center justify-center gap-3 text-white">
+        <Image
+          src={"/images/home/hero/hero.png"}
+          width={281}
+          height={74}
+          alt="logo"
+          className="h-auto md:h-[400px] md:w-[700px]"
+        />
+      </div>
+
+      <div className="z-5 absolute left-0 top-0 h-full w-full bg-black bg-opacity-50"></div>
+    </section>
+  );
+};
+
+export default Hero;
