@@ -277,7 +277,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                     onClick={() => form.setValue("time", time)}
                     className={cn(
                       "flex h-full w-full cursor-pointer items-center justify-center border-[1px] border-gray-800 py-4 text-white",
-                      form.watch("time") === time && "border-primary",
+                      form.watch("time") === time && "border-[#C9AB81]",
                     )}
                   >
                     {time}
@@ -287,7 +287,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
             </div>
           )}
           <Button
-            className="w-fit bg-[#000] px-6 py-6 hover:bg-[#FEC679]"
+            className="w-fit bg-[#C9AB81] px-6 py-6 hover:bg-[#FEC679]"
             disabled={disable}
           >
             Book A Table
