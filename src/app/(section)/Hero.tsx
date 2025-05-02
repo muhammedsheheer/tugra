@@ -12,8 +12,12 @@ const Hero: React.FC = () => {
         muted
         playsInline
         className="absolute inset-0 h-full w-full object-cover"
+        poster="https://d8q1b3smcycac.cloudfront.net/tugra/tugra-thumb.png"
       >
-        <source src="/video/bg.mp4" type="video/mp4" />
+        <source
+          src="https://d8q1b3smcycac.cloudfront.net/tugra/tugra-website.mp4"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
 

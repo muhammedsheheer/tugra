@@ -5,6 +5,11 @@ import { motion } from "framer-motion";
 const Nova: React.FC = () => {
   return (
     <section className="relative h-full w-full bg-[#070D0F] px-4 py-14 md:px-36 md:py-28">
+      <div className="lines z-0">
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
       <div className="absolute -top-8 right-0 z-0 md:-top-16">
         <Image
           src={"/images/home/nova/bg.png"}

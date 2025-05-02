@@ -135,7 +135,7 @@ const Navbar = ({
                 width={281}
                 height={74}
                 alt="logo"
-                className="w-20"
+                className="w-32"
               />
             </Link>
           </div>

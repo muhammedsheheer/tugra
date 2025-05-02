@@ -12,6 +12,7 @@ import Reservation from "./(section)/Reservation";
 import Reviews from "./(section)/Review";
 import Glimpses from "./(section)/Glimpses";
 import { Highlights } from "./(section)/Highlights";
+import ViewMenu from "@/components/floating-buttons/ViewMenu";
 
 export default function HomePage() {
   return (
@@ -27,6 +28,9 @@ export default function HomePage() {
         <Reviews />
         <Follow />
         <Footer />
+      </div>
+      <div className="fixed bottom-6 right-2 z-50 flex md:bottom-[54px] md:right-[48px]">
+        <ViewMenu />
       </div>
     </main>
   );

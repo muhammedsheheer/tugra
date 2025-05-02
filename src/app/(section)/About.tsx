@@ -4,6 +4,11 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <section className="relative h-full w-full bg-[#070D0F] py-12 md:py-40">
+      <div className="lines z-0">
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
       <div className="absolute right-10 hidden md:block">
         <p className="max-w-[480px] text-center font-inter text-sm font-[300] text-[#C9AB81] md:text-start md:text-base">
           Our journey started in September 2017 with two very passionate chefs
@@ -47,7 +52,7 @@ const About: React.FC = () => {
         </div>
         <div className="flex flex-row items-start justify-start gap-2 md:gap-8">
           <h1
-            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
+            className="font-open_sans text-9xl font-[400] uppercase md:text-[30vw]"
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -63,22 +68,10 @@ const About: React.FC = () => {
             width={160}
             height={160}
             alt="logo"
-            className="z-50 mt-3 h-16 md:mt-16 md:h-80 md:w-80"
+            className="z-50 mt-5 h-28 md:mt-24 md:h-96 md:w-80"
           />
           <h1
-            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
-            style={{
-              background:
-                "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
-              WebkitBackgroundClip: "text",
-              backgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
-          >
-            U
-          </h1>
-          <h1
-            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
+            className="font-open_sans text-9xl font-[400] uppercase md:text-[30vw]"
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -90,7 +83,7 @@ const About: React.FC = () => {
             G
           </h1>
           <h1
-            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
+            className="z-50 font-open_sans text-9xl font-[400] uppercase md:text-[30vw]"
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -102,7 +95,7 @@ const About: React.FC = () => {
             R
           </h1>
           <h1
-            className="font-open_sans text-7xl font-[400] uppercase md:text-[23vw]"
+            className="font-open_sans text-9xl font-[400] uppercase md:text-[30vw]"
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",

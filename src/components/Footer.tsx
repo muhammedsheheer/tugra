@@ -112,7 +112,7 @@ const Footer = ({}) => {
         {/* mobile screen */}
 
         <div className="flex flex-col items-start justify-start gap-4 md:hidden md:flex-row md:items-center md:justify-end md:gap-2">
-          <div className="flex w-full flex-col items-start justify-start gap-8 md:w-[45%] md:flex-row md:items-center md:justify-end md:gap-16">
+          <div className="flex w-full flex-row items-start justify-start gap-8 md:w-[45%] md:flex-row md:items-center md:justify-end md:gap-16">
             <div className="flex flex-col items-start justify-start gap-3 md:items-start">
               <Link
                 href={"/"}
@@ -145,8 +145,6 @@ const Footer = ({}) => {
                 Booking{" "}
               </Link>
             </div>
-          </div>
-          <div className="flex w-full flex-col items-end justify-end gap-8 md:w-[45%] md:flex-row md:justify-start md:gap-20">
             <div className="flex flex-col items-end gap-3 md:items-start">
               <div>
                 <Link
@@ -162,7 +160,7 @@ const Footer = ({}) => {
                   target="_blank"
                   className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
                 >
-                  44 Station Approach, Hayes, Bromley <br /> BR2 7EJ, United
+                  44 Station Approach, <br /> Hayes, Bromley BR2 7EJ, United
                   Kingdom
                 </Link>
                 <Link
@@ -179,11 +177,14 @@ const Footer = ({}) => {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col items-end gap-3 md:items-start">
+          </div>
+          <div className="w-full border-b-[1px] border-b-[#CFAC6A]" />
+          <div className="flex w-full flex-col items-center justify-center gap-8 pt-6 md:w-[45%] md:flex-row md:justify-start md:gap-20">
+            <div className="flex flex-col items-center gap-3 md:items-start">
               <span className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A]">
                 Opening hours
               </span>
-              <p className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start">
+              <p className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start">
                 Monday 12:00pm to 10:30pm
                 <br />
                 Tuesday closed
@@ -201,7 +202,7 @@ const Footer = ({}) => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row items-end justify-end gap-3 md:ml-10 md:items-center md:justify-center">
+        <div className="flex flex-row items-center justify-center gap-3 md:ml-10 md:items-center md:justify-center">
           <Link
             href={"https://www.instagram.com/tugrahayes/"}
             target="_blank"
