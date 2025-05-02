@@ -120,7 +120,7 @@ const Contact = ({}) => {
                 </div>
                 <div className="flex flex-col gap-4">
                   <Link href="tel:+442084629898" className="text-white">
-                    44 20 8462 9898
+                    +44 20 8462 9898
                   </Link>
                 </div>
               </div>

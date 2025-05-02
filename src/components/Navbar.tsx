@@ -109,6 +109,12 @@ const Navbar = ({
             >
               Contact Us<span className="text-xl text-[#FEC679]">+</span>
             </Link>
+            <Link
+              href={"/about-us"}
+              className="font-open_sans text-sm font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
+            >
+              Our Story<span className="text-xl text-[#FEC679]">+</span>
+            </Link>
           </div>
           {/* <div className="flex items-end justify-end">
             <Sidebar>

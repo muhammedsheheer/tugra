@@ -44,7 +44,7 @@ const Footer = ({}) => {
               href={"/about-us"}
               className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A]"
             >
-              About{" "}
+              Our Story{" "}
             </Link>
             <Link
               href={"/table-booking"}
@@ -81,7 +81,7 @@ const Footer = ({}) => {
                 href={"tele:+442084629898"}
                 className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
               >
-                44 20 8462 9898
+                +44 20 8462 9898
               </Link>
             </div>
           </div>
@@ -136,7 +136,7 @@ const Footer = ({}) => {
                 href={"/about-us"}
                 className="font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A]"
               >
-                About{" "}
+                Our Story{" "}
               </Link>
               <Link
                 href={"/table-booking"}
@@ -173,7 +173,7 @@ const Footer = ({}) => {
                   href={"tele:+442084629898"}
                   className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
                 >
-                  44 20 8462 9898
+                  +44 20 8462 9898
                 </Link>
               </div>
             </div>
