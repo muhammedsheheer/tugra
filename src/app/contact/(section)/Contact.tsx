@@ -75,7 +75,7 @@ const Contact = ({}) => {
         <div className="flex w-full flex-col lg:flex-row">
           <div className="flex w-full flex-col gap-8 bg-[#070d0f] px-6 lg:w-1/2 lg:px-28">
             <div className="flex flex-col gap-8">
-              <h1 className="font-forum text-4xl font-medium uppercase leading-[50px] tracking-[5px] text-white lg:text-5xl">
+              <h1 className="font-cormorant text-4xl font-medium uppercase leading-[50px] tracking-[5px] text-white lg:text-5xl">
                 Get in
                 <br /> Touch
               </h1>
@@ -84,19 +84,19 @@ const Contact = ({}) => {
               <div className="flex gap-6">
                 <div>
                   <div className="h-fit w-fit rounded-full p-2">
-                    <MapPin className="text-white" />
+                    <MapPin className="font-roboto text-white" />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
                   <Link href={"https://g.co/kgs/qNeM2a6"} target="_blank">
-                    <p className="text-white">
+                    <p className="font-roboto text-white">
                       44 Station Approach, Hayes, Bromley <br /> BR2 7EJ, United
                       Kingdom
                     </p>
                   </Link>
                   <Link href={"https://g.co/kgs/qNeM2a6"} target="_blank">
                     <p className="flex items-center gap-2 text-sm text-white">
-                      <span>Get Direction</span>
+                      <span className="font-roboto">Get Direction</span>
                       <ArrowRight className="text-white" />
                     </p>
                   </Link>
@@ -118,7 +118,7 @@ const Contact = ({}) => {
                     <Phone className="text-white" />
                   </div>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="font-roboto flex flex-col gap-4">
                   <Link href="tel:+442084629898" className="text-white">
                     +44 20 8462 9898
                   </Link>

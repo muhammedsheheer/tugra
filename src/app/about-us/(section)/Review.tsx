@@ -17,7 +17,7 @@ const Reviews = ({}) => {
       <div className="flex h-full w-full flex-col items-start justify-center gap-4 py-12 md:py-44 md:pt-24">
         <div className="flex h-full w-full flex-col items-center justify-center gap-2 lg:gap-4">
           <div className="flex flex-col items-center justify-center gap-2 pb-4 md:pb-6">
-            <h6 className="text-center font-open_sans text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
+            <h6 className="font-cormorant text-center text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
               STORIES FROM HEARTS
             </h6>
           </div>
@@ -25,13 +25,13 @@ const Reviews = ({}) => {
         <div className="flex w-full items-center justify-center p-4 md:p-0">
           {reviews && (
             <Carousel className="w-full px-4">
-              <CarouselContent className="flex w-full justify-center gap-4 pb-2 md:ml-4 md:pb-6">
+              <CarouselContent>
                 {reviews
                   .filter((review) => review.rating >= 4)
                   .map((review, index) => (
                     <CarouselItem
                       key={index}
-                      className="flex w-full basis-full flex-col items-center justify-center gap-6 rounded-none md:basis-1/4"
+                      className="md:basis-1/2 lg:basis-1/4"
                     >
                       <div className="flex h-[300px] flex-col items-center justify-center gap-6 border border-[#C9AB81] bg-transparent px-6 py-8 md:h-[400px]">
                         <div className="flex w-full justify-center">

@@ -31,14 +31,14 @@ const Reservation: React.FC = () => {
         >
           <div className="flex flex-col gap-2">
             <div className="flex flex-row items-center justify-center gap-2 md:gap-5">
-              <h6 className="text-center font-open_sans text-3xl font-[400] uppercase tracking-[5px] text-[#000] md:text-5xl md:tracking-[13px]">
+              <h6 className="font-cormorant text-center text-3xl font-[400] uppercase tracking-[5px] text-[#000] md:text-5xl md:tracking-[13px]">
                 Reserve <br />
                 Your Table
               </h6>
             </div>
           </div>
           <div>
-            <p className="w-full max-w-[500px] text-center font-inter text-sm font-[400] lowercase leading-[150%] text-[rgba(0,0,0,0.60)] md:text-base">
+            <p className="font-roboto w-full max-w-[500px] text-center text-sm font-[400] leading-[150%] text-[rgba(0,0,0,0.60)] md:text-base">
               Secure your spot for an unforgettable Turkish dining experience.
               Book your table now and let us take care of the rest!
             </p>
@@ -71,14 +71,14 @@ const Reservation: React.FC = () => {
         >
           <div className="flex flex-col gap-2">
             <div className="flex flex-row items-center justify-center gap-2 md:gap-5">
-              <h6 className="text-center font-open_sans text-3xl font-[400] uppercase tracking-[5px] text-[#000] md:text-5xl md:tracking-[13px]">
+              <h6 className="font-cormorant text-center text-3xl font-[400] uppercase tracking-[5px] text-[#000] md:text-5xl md:tracking-[13px]">
                 Reserve <br />
                 Your Table
               </h6>
             </div>
           </div>
           <div>
-            <p className="w-full max-w-[500px] text-center font-inter text-sm font-[400] lowercase leading-[150%] text-[rgba(0,0,0,0.60)] md:text-base">
+            <p className="font-roboto w-full max-w-[500px] text-center text-sm font-[400] lowercase leading-[150%] text-[rgba(0,0,0,0.60)] md:text-base">
               Secure your spot for an unforgettable Turkish dining experience.
               Book your table now and let us take care of the rest!
             </p>

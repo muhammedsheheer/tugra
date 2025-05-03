@@ -20,7 +20,7 @@ const Follow: React.FC = () => {
       <div className="hidden flex-col gap-8 md:flex md:gap-20">
         <div className="flex w-full flex-col gap-4 px-4 md:px-[40px] 2xl:px-[50px]">
           <motion.h1
-            className="pb-6 text-end font-open_sans text-3xl font-[400] uppercase tracking-[3.2px] text-[#C9AB81] md:pb-14 md:pr-[10%] md:text-3xl"
+            className="font-cormorant pb-6 text-end text-3xl font-[400] uppercase tracking-[3.2px] text-[#C9AB81] md:pb-14 md:pr-[10%] md:text-3xl"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
@@ -65,7 +65,7 @@ const Follow: React.FC = () => {
                 <Link
                   href={"https://www.instagram.com/tugrahayes/"}
                   target="_blank"
-                  className="text-md text-center font-open_sans font-[400] uppercase text-[#CEAC5C] md:text-3xl"
+                  className="text-md font-cormorant text-center font-[400] uppercase text-[#CEAC5C] md:text-3xl"
                 >
                   @tugrahayes
                 </Link>
@@ -151,7 +151,7 @@ const Follow: React.FC = () => {
       <div className="flex flex-col gap-8 md:hidden md:gap-20">
         <div className="flex w-full flex-col gap-4 px-4 md:px-[60px] 2xl:px-[80px]">
           <motion.h1
-            className="pb-6 text-center font-open_sans text-3xl font-[400] uppercase tracking-[3.2px] text-[#C9AB81] md:pb-16 md:text-7xl"
+            className="font-cormorant pb-6 text-center text-3xl font-[400] uppercase tracking-[3.2px] text-[#C9AB81] md:pb-16 md:text-7xl"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
@@ -196,7 +196,7 @@ const Follow: React.FC = () => {
                 <Link
                   href={"https://www.instagram.com/tugrahayes/"}
                   target="_blank"
-                  className="text-md text-center font-open_sans font-[400] uppercase text-[#CEAC5C] md:text-xl"
+                  className="text-md font-cormorant text-center font-[400] uppercase text-[#CEAC5C] md:text-xl"
                 >
                   @tugrahayes
                 </Link>

@@ -21,13 +21,13 @@ const Special = ({}) => {
         <div className="flex w-full flex-col items-center justify-center gap-3 md:flex-row">
           <div className="flex flex-col items-center justify-center gap-2">
             <div className="flex flex-col items-center justify-center gap-2">
-              <h6 className="text-center font-open_sans text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
+              <h6 className="font-cormorant text-center text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
                 Our best specialties
               </h6>
             </div>
           </div>
         </div>
-        <div className="relative z-50 flex min-h-[400px] w-full flex-col justify-center px-2">
+        <div className="font-cormorant relative z-50 flex min-h-[400px] w-full flex-col justify-center px-2">
           {modelData && <EmblaCarousel slides={modelData} options={OPTIONS} />}
         </div>
         <div>

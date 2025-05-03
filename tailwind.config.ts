@@ -12,6 +12,8 @@ export default {
         inter: ["var(--font-inter)", ...fontFamily.sans],
         open_sans: ["var(--font-open_sans)", ...fontFamily.sans],
         lora: ["var(--font-lora)", ...fontFamily.sans],
+        cormorant: ["var(--font-cormorant)", ...fontFamily.sans],
+        roboto: ["var(--font-roboto)", ...fontFamily.sans],
       },
       borderRadius: {
         lg: "var(--radius)",

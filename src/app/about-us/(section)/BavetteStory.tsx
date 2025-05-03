@@ -4,7 +4,7 @@ const BavetteStory = ({}) => {
   return (
     <section className="relative flex h-full w-full items-center justify-center bg-[#070d0f] p-4 lg:py-16">
       <div className="flex h-full w-full flex-col items-center justify-center gap-11 bg-[#070d0f]">
-        <h2 className="font-oswald text-center text-5xl text-white md:left-[15%] md:text-8xl">
+        <h2 className="font-cormorant text-center text-5xl text-white md:left-[15%] md:text-8xl">
           The Tugra
           <br />
           Story
@@ -20,12 +20,12 @@ const BavetteStory = ({}) => {
             />
           </div>
           <div className="flex h-full w-full flex-col items-center gap-[2.5rem] p-6 md:w-1/2 md:items-start lg:ml-24">
-            <h1 className="font-oswald max-w-[500px] text-center text-5xl text-white md:text-start md:text-7xl">
+            <h1 className="font-cormorant max-w-[500px] text-center text-5xl text-white md:text-start md:text-7xl">
               From Passion
               <br />
               to Perfection{" "}
             </h1>
-            <p className="max-w-[450px] text-center font-light leading-[160%] text-white md:text-start">
+            <p className="font-roboto max-w-[450px] text-center font-light leading-[160%] text-white md:text-start">
               What began as a vision—to redefine the dining experience—has
               evolved into <strong>Tugra</strong>, a culinary sanctuary where
               flavors are brought to life with artistry and passion. Founded on

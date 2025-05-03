@@ -2,8 +2,10 @@ import BavetteStory from "@/app/about-us/(section)/BavetteStory";
 import Hero from "@/app/about-us/(section)/Hero";
 import JoinUs from "@/app/about-us/(section)/JoinUs";
 import Review from "@/app/about-us/(section)/Review";
+import FeaturesSection from "@/components/FeaturesSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import StatsSection from "@/components/StatsSection";
 
 const page = ({}) => {
   return (
@@ -12,7 +14,9 @@ const page = ({}) => {
         <Navbar position="absolute" />
         <Hero />
         <BavetteStory />
-        <JoinUs />
+        <FeaturesSection />
+        <StatsSection />
+        {/* <JoinUs /> */}
         <Review />
         <Footer />
       </div>

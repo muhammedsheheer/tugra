@@ -3,7 +3,14 @@ import "@/styles/lines.css";
 import "@/styles/ham.css";
 import { cn } from "@/lib/utils";
 import { type Metadata } from "next";
-import { Open_Sans, Lora, Birthstone, Inter } from "next/font/google";
+import {
+  Open_Sans,
+  Lora,
+  Birthstone,
+  Inter,
+  Cormorant,
+  Roboto,
+} from "next/font/google";
 import Providers from "@/app/Providers";
 
 export const metadata: Metadata = {
@@ -36,6 +43,18 @@ const open_sans = Open_Sans({
   weight: ["400", "500", "600", "700", "800"],
 });
 
+const cormorant = Cormorant({
+  subsets: ["latin"],
+  variable: "--font-cormorant",
+  weight: ["400", "500", "600", "700"],
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  weight: ["400", "500"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
@@ -48,6 +67,8 @@ export default function RootLayout({
           inter.variable,
           lora.variable,
           birthstone.variable,
+          cormorant.variable,
+          roboto.variable,
         )}
       >
         <Providers>{children}</Providers>

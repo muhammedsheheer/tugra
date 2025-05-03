@@ -138,7 +138,7 @@ export function Highlights() {
       </div>
       <div className="flex flex-col items-center justify-center gap-16 md:gap-28">
         <div className="flex flex-col items-center justify-center gap-2">
-          <h6 className="text-center font-open_sans text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
+          <h6 className="font-cormorant text-center text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
             what do we <br /> have for you
           </h6>
         </div>
