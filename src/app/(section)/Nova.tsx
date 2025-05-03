@@ -22,7 +22,7 @@ const Nova: React.FC = () => {
       <div className="flex flex-col gap-6 md:gap-12">
         <div className="pb-4 md:pb-8">
           <div className="flex flex-col items-center justify-center gap-2">
-            <h6 className="font-cormorant text-center text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
+            <h6 className="text-center font-cormorant text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
               FROM OUR <br /> ARCHIVES
             </h6>
           </div>
@@ -39,7 +39,7 @@ const Nova: React.FC = () => {
           </div>
           <div className="z-50 grid w-full grid-cols-2 gap-2 md:w-[70%] md:grid-cols-2 md:gap-4">
             <motion.img
-              src={"/images/home/nova/1.png"}
+              src={"/images/home/nova/1.jpg"}
               width={160}
               height={160}
               alt="logo"
@@ -50,7 +50,7 @@ const Nova: React.FC = () => {
               className="z-50 h-[150px] w-full object-cover md:h-[450px]"
             />
             <motion.img
-              src={"/images/home/nova/2.png"}
+              src={"/images/home/nova/2.jpg"}
               width={160}
               height={160}
               alt="logo"
@@ -61,7 +61,7 @@ const Nova: React.FC = () => {
               className="z-50 h-[150px] w-full object-cover md:h-[450px]"
             />
             <motion.img
-              src={"/images/home/nova/3.png"}
+              src={"/images/home/nova/3.jpg"}
               width={160}
               height={160}
               alt="logo"
@@ -72,7 +72,7 @@ const Nova: React.FC = () => {
               className="h-[150px] w-full object-cover md:h-[450px]"
             />
             <motion.img
-              src={"/images/home/nova/4.png"}
+              src={"/images/home/nova/4.jpg"}
               width={160}
               height={160}
               alt="logo"
@@ -83,7 +83,7 @@ const Nova: React.FC = () => {
               className="h-[150px] w-full object-cover md:h-[450px]"
             />
             <motion.img
-              src={"/images/home/nova/5.png"}
+              src={"/images/home/nova/5.jpg"}
               width={160}
               height={160}
               alt="logo"
@@ -94,7 +94,7 @@ const Nova: React.FC = () => {
               className="h-[150px] w-full object-cover md:h-[300px]"
             />
             <motion.img
-              src={"/images/home/nova/6.png"}
+              src={"/images/home/nova/6.jpg"}
               width={160}
               height={160}
               alt="logo"

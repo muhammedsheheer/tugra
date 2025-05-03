@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useRestaurant } from "@/context/RestaurantContext";
 import type { EmblaOptionsType } from "embla-carousel";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const OPTIONS: EmblaOptionsType = { loop: true };
 
@@ -21,13 +22,40 @@ const Special = ({}) => {
         <div className="flex w-full flex-col items-center justify-center gap-3 md:flex-row">
           <div className="flex flex-col items-center justify-center gap-2">
             <div className="flex flex-col items-center justify-center gap-2">
-              <h6 className="font-cormorant text-center text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
-                Our best specialties
+              <h6 className="text-center font-cormorant text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
+                <motion.span
+                  className="inline-block"
+                  initial={{ y: 0 }}
+                  animate={{ y: [0, -15, 0, 15, 0] }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeOut",
+                    repeat: Infinity,
+                    repeatType: "loop",
+                  }}
+                >
+                  O
+                </motion.span>
+                {"ur best "}
+                <motion.span
+                  className="inline-block"
+                  initial={{ y: 0 }}
+                  animate={{ y: [0, -15, 0, 15, 0] }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeOut",
+                    repeat: Infinity,
+                    repeatType: "loop",
+                  }}
+                >
+                  S
+                </motion.span>
+                {"pecialties"}
               </h6>
             </div>
           </div>
         </div>
-        <div className="font-cormorant relative z-50 flex min-h-[400px] w-full flex-col justify-center px-2">
+        <div className="relative z-50 flex min-h-[400px] w-full flex-col justify-center px-2 font-cormorant">
           {modelData && <EmblaCarousel slides={modelData} options={OPTIONS} />}
         </div>
         <div>

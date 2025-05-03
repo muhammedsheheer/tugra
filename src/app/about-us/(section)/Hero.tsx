@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Hero = ({}) => {
   return (
@@ -9,7 +11,13 @@ const Hero = ({}) => {
       <div className="relative flex min-h-[100vh] w-full items-center justify-center">
         <div className="flex w-full flex-col gap-6 px-4 lg:flex-row lg:gap-0 lg:px-0">
           <div className="flex w-full items-center justify-center lg:w-1/2">
-            <div className="mt-20 flex flex-col items-start gap-6 lg:mt-0 lg:w-8/12">
+            <motion.div
+              className="mt-20 flex flex-col items-start gap-6 lg:mt-0 lg:w-8/12"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+            >
               <h1 className="font-cormorant text-5xl font-semibold text-white md:leading-[66px] lg:text-6xl">
                 Welcome to <br />
                 Tugra Meathouse
@@ -31,15 +39,19 @@ const Hero = ({}) => {
                 feature. Head Chef creativity and experience ensure that each
                 dish transforms into a culinary masterpiece.
               </p>
-            </div>
+            </motion.div>
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-6 md:mt-16 lg:w-1/2">
-            <Image
+            <motion.img
               src="/images/about-us/2.jpg"
               width={951}
               height={975}
               alt="hero"
               className="h-full max-h-[600px] w-full object-cover"
+              initial={{ opacity: 0, y: 50, scale: 0.8 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: false, amount: 0.5 }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
             />
           </div>
         </div>

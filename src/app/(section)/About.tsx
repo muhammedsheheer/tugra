@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const About: React.FC = () => {
   return (
@@ -10,14 +11,20 @@ const About: React.FC = () => {
         <div className="line"></div>
       </div>
       <div className="absolute right-10 hidden md:block">
-        <p className="font-roboto max-w-[480px] text-center text-sm font-[300] text-[#C9AB81] md:text-start md:text-base">
+        <motion.p
+          className="max-w-[480px] text-center font-roboto text-sm font-[300] text-[#C9AB81] md:text-start md:text-base"
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+        >
           Our journey started in September 2017 with two very passionate chefs
           and two managers (Hoja-Iso, Janer). Our mission is to reflect our
           passion and enthusiasm for Turkish cuisine through our very unique
           menu and delicately sources authentic ingredients. This is a stand
           alone, an individual restaurant with no other branches. We are in
           Hayes-Bromley serving contemporary Mediterranean Food” 
-        </p>
+        </motion.p>
       </div>
       <div className="absolute -top-24 left-44 z-0 hidden md:block">
         <Image
@@ -34,12 +41,18 @@ const About: React.FC = () => {
             <h6 className="text-center font-birthstone text-lg font-[400] tracking-[0.757px] text-[#C9AB81] md:text-xl">
               Our Story
             </h6>
-            <h2 className="font-cormorant text-center text-3xl font-[400] uppercase tracking-[5px] text-[#C9AB81] md:text-4xl md:tracking-[10px]">
+            <h2 className="text-center font-cormorant text-3xl font-[400] uppercase tracking-[5px] text-[#C9AB81] md:text-4xl md:tracking-[10px]">
               About us
             </h2>
           </div>
           <div className="md:hidden">
-            <p className="font-roboto max-w-[350px] text-center text-sm font-[300] text-[#C9AB81] md:text-start md:text-base">
+            <motion.p
+              className="max-w-[480px] text-center font-roboto text-sm font-[300] text-[#C9AB81] md:text-start md:text-base"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: false }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+            >
               Our journey started in September 2017 with two very passionate
               chefs and two managers (Hoja-Iso, Janer). Our mission is to
               reflect our passion and enthusiasm for Turkish cuisine through our
@@ -47,12 +60,16 @@ const About: React.FC = () => {
               This is a stand alone, an individual restaurant with no other
               branches. We are in Hayes-Bromley serving contemporary
               Mediterranean Food” 
-            </p>
+            </motion.p>
           </div>
         </div>
         <div className="flex flex-row items-start justify-start gap-2 md:gap-8">
-          <h1
-            className="font-cormorant text-9xl font-[400] uppercase md:text-[30vw]"
+          <motion.h1
+            className="font-cormorant text-7xl font-[400] uppercase md:text-[30vw]"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -62,16 +79,24 @@ const About: React.FC = () => {
             }}
           >
             T
-          </h1>
-          <Image
+          </motion.h1>
+          <motion.img
             src={"/images/home/about/image.png"}
             width={160}
             height={160}
             alt="logo"
             className="z-50 mt-5 h-28 md:mt-24 md:h-96 md:w-80"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
           />
-          <h1
-            className="font-cormorant text-9xl font-[400] uppercase md:text-[30vw]"
+          <motion.h1
+            className="font-cormorant text-7xl font-[400] uppercase md:text-[30vw]"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -81,9 +106,13 @@ const About: React.FC = () => {
             }}
           >
             G
-          </h1>
-          <h1
-            className="font-cormorant z-50 text-9xl font-[400] uppercase md:text-[30vw]"
+          </motion.h1>
+          <motion.h1
+            className="font-cormorant text-7xl font-[400] uppercase md:text-[30vw]"
+            initial={{ opacity: 0, y: -50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -93,9 +122,13 @@ const About: React.FC = () => {
             }}
           >
             R
-          </h1>
-          <h1
-            className="font-cormorant text-9xl font-[400] uppercase md:text-[30vw]"
+          </motion.h1>
+          <motion.h1
+            className="font-cormorant text-7xl font-[400] uppercase md:text-[30vw]"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
             style={{
               background:
                 "linear-gradient(180deg, #9B834E 39.28%, #352D1B 99.79%)",
@@ -105,7 +138,7 @@ const About: React.FC = () => {
             }}
           >
             A
-          </h1>
+          </motion.h1>
         </div>
       </div>
     </section>

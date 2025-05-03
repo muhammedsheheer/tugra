@@ -127,6 +127,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export function Highlights() {
   return (
@@ -138,8 +139,34 @@ export function Highlights() {
       </div>
       <div className="flex flex-col items-center justify-center gap-16 md:gap-28">
         <div className="flex flex-col items-center justify-center gap-2">
-          <h6 className="font-cormorant text-center text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
-            what do we <br /> have for you
+          <h6 className="text-center font-cormorant text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
+            <motion.span
+              className="inline-block"
+              initial={{ y: 0 }}
+              animate={{ y: [0, -15, 0, 15, 0] }}
+              transition={{
+                duration: 1,
+                ease: "easeOut",
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+            >
+              w
+            </motion.span>
+            {"hat do we have for yo"}
+            <motion.span
+              className="inline-block"
+              initial={{ y: 0 }}
+              animate={{ y: [0, -15, 0, 15, 0] }}
+              transition={{
+                duration: 1,
+                ease: "easeOut",
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+            >
+              u
+            </motion.span>
           </h6>
         </div>
         <Carousel

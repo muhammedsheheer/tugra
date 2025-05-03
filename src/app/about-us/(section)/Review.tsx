@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/carousel";
 import { useRestaurant } from "@/context/RestaurantContext";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Reviews = ({}) => {
   const { reviews } = useRestaurant();
@@ -17,8 +18,34 @@ const Reviews = ({}) => {
       <div className="flex h-full w-full flex-col items-start justify-center gap-4 py-12 md:py-44 md:pt-24">
         <div className="flex h-full w-full flex-col items-center justify-center gap-2 lg:gap-4">
           <div className="flex flex-col items-center justify-center gap-2 pb-4 md:pb-6">
-            <h6 className="font-cormorant text-center text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
-              STORIES FROM HEARTS
+            <h6 className="text-center font-cormorant text-2xl font-[400] uppercase text-[#C9AB81] md:text-3xl md:tracking-[10px]">
+              <motion.span
+                className="inline-block"
+                initial={{ y: 0 }}
+                animate={{ y: [0, -15, 0, 15, 0] }}
+                transition={{
+                  duration: 1,
+                  ease: "easeOut",
+                  repeat: Infinity,
+                  repeatType: "loop",
+                }}
+              >
+                S
+              </motion.span>
+              {"TORIES FROM HEART"}
+              <motion.span
+                className="inline-block"
+                initial={{ y: 0 }}
+                animate={{ y: [0, -15, 0, 15, 0] }}
+                transition={{
+                  duration: 1,
+                  ease: "easeOut",
+                  repeat: Infinity,
+                  repeatType: "loop",
+                }}
+              >
+                S
+              </motion.span>
             </h6>
           </div>
         </div>
@@ -45,12 +72,12 @@ const Reviews = ({}) => {
                           )}
                         </div>
                         <div className="flex flex-col gap-4">
-                          <p className="font-cormorant line-clamp-6 text-center text-sm font-[500] uppercase text-[#BBB4AA] md:px-4 lg:leading-[120%]">
+                          <p className="line-clamp-6 text-center font-cormorant text-sm font-[500] uppercase text-[#BBB4AA] md:px-4 lg:leading-[120%]">
                             {review.text.text}
                           </p>
                         </div>
                         <div>
-                          <p className="font-cormorant text-center text-sm font-[600] uppercase leading-[120%] text-[#BBB4AA]">
+                          <p className="text-center font-cormorant text-sm font-[600] uppercase leading-[120%] text-[#BBB4AA]">
                             {review.authorAttribution.displayName}
                           </p>
                         </div>

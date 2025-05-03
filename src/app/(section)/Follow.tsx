@@ -20,7 +20,7 @@ const Follow: React.FC = () => {
       <div className="hidden flex-col gap-8 md:flex md:gap-20">
         <div className="flex w-full flex-col gap-4 px-4 md:px-[40px] 2xl:px-[50px]">
           <motion.h1
-            className="font-cormorant pb-6 text-end text-3xl font-[400] uppercase tracking-[3.2px] text-[#C9AB81] md:pb-14 md:pr-[10%] md:text-3xl"
+            className="pb-6 text-end font-cormorant text-3xl font-[400] uppercase tracking-[3.2px] text-[#C9AB81] md:pb-14 md:pr-[10%] md:text-3xl"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
@@ -32,11 +32,11 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/1.png"}
+                src={"/images/home/follow/1.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
-                className="z-50 h-[300px] w-full object-cover md:h-full"
+                className="z-50 h-[300px] w-full object-cover md:h-[500px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -65,7 +65,7 @@ const Follow: React.FC = () => {
                 <Link
                   href={"https://www.instagram.com/tugrahayes/"}
                   target="_blank"
-                  className="text-md font-cormorant text-center font-[400] uppercase text-[#CEAC5C] md:text-3xl"
+                  className="text-md text-center font-cormorant font-[400] uppercase text-[#CEAC5C] md:text-3xl"
                 >
                   @tugrahayes
                 </Link>
@@ -74,11 +74,11 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/2.png"}
+                src={"/images/home/follow/2.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover md:h-full"
+                className="h-[300px] w-full object-cover md:h-[500px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -88,11 +88,11 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/3.png"}
+                src={"/images/home/follow/3.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover md:h-full"
+                className="h-[300px] w-full object-cover md:h-[500px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -104,11 +104,11 @@ const Follow: React.FC = () => {
             <div className="flex w-full items-center justify-center md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/4.png"}
+                src={"/images/home/follow/4.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
-                className="z-50 h-[300px] w-full object-cover md:h-full"
+                className="z-50 h-[300px] w-full object-cover md:h-[500px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -118,11 +118,11 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[50%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/5.png"}
+                src={"/images/home/follow/5.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
-                className="z-50 h-[300px] w-full object-cover md:h-full"
+                className="z-50 h-[300px] w-full object-cover md:h-[500px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -133,11 +133,11 @@ const Follow: React.FC = () => {
             <div className="z-0 flex w-full items-center justify-center md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/6.png"}
+                src={"/images/home/follow/6.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
-                className="z-0 h-[300px] w-full object-cover md:h-full"
+                className="z-0 h-[300px] w-full object-cover md:h-[500px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -151,7 +151,7 @@ const Follow: React.FC = () => {
       <div className="flex flex-col gap-8 md:hidden md:gap-20">
         <div className="flex w-full flex-col gap-4 px-4 md:px-[60px] 2xl:px-[80px]">
           <motion.h1
-            className="font-cormorant pb-6 text-center text-3xl font-[400] uppercase tracking-[3.2px] text-[#C9AB81] md:pb-16 md:text-7xl"
+            className="pb-6 text-center font-cormorant text-3xl font-[400] uppercase tracking-[3.2px] text-[#C9AB81] md:pb-16 md:text-7xl"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
@@ -196,7 +196,7 @@ const Follow: React.FC = () => {
                 <Link
                   href={"https://www.instagram.com/tugrahayes/"}
                   target="_blank"
-                  className="text-md font-cormorant text-center font-[400] uppercase text-[#CEAC5C] md:text-xl"
+                  className="text-md text-center font-cormorant font-[400] uppercase text-[#CEAC5C] md:text-xl"
                 >
                   @tugrahayes
                 </Link>
