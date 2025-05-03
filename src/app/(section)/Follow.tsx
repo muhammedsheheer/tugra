@@ -36,7 +36,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="z-50 h-[300px] w-full object-cover md:h-[500px]"
+                className="z-50 h-[300px] w-full object-cover md:h-[400px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -78,7 +78,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover md:h-[500px]"
+                className="h-[300px] w-full object-cover md:h-[400px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -92,7 +92,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover md:h-[500px]"
+                className="h-[300px] w-full object-cover md:h-[400px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -108,7 +108,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="z-50 h-[300px] w-full object-cover md:h-[500px]"
+                className="z-50 h-[300px] w-full object-cover md:h-[400px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -122,7 +122,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="z-50 h-[300px] w-full object-cover md:h-[500px]"
+                className="z-50 h-[300px] w-full object-cover md:h-[400px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -137,7 +137,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="z-0 h-[300px] w-full object-cover md:h-[500px]"
+                className="z-0 h-[300px] w-full object-cover md:h-[400px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
