@@ -47,7 +47,18 @@ const Navbar = ({
     >
       {/*big screen */}
       <div className="hidden px-4 lg:block lg:px-20">
-        <div className="flex flex-row items-center justify-center">
+        <div className="flex flex-row items-center justify-between">
+          <div>
+            <Link href={"/"}>
+              <Image
+                src={"/images/home/hero/logo.png"}
+                width={281}
+                height={74}
+                alt="logo"
+                className="h-20 w-full"
+              />
+            </Link>
+          </div>
           <div className="flex flex-row items-center justify-center gap-14">
             <Link
               href={"/"}
@@ -116,6 +127,7 @@ const Navbar = ({
               Our Story<span className="text-xl text-[#FEC679]">+</span>
             </Link>
           </div>
+          <div></div>
           {/* <div className="flex items-end justify-end">
             <Sidebar>
               <Button

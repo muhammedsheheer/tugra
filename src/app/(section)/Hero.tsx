@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
 
       <div className="absolute inset-0 bg-black/50"></div>
 
-      <div className="relative z-40 flex h-full flex-col items-center justify-center gap-3 text-white md:mr-[50%]">
+      {/* <div className="relative z-40 flex h-full flex-col items-center justify-center gap-3 text-white md:mr-[50%]">
         <Image
           src={"/images/home/hero/hero.png"}
           width={281}
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
           alt="logo"
           className="mb-20 h-auto md:mb-0 md:h-[400px] md:w-[700px]"
         />
-      </div>
+      </div> */}
 
       <div className="z-5 absolute left-0 top-0 h-full w-full bg-black bg-opacity-50"></div>
     </section>
