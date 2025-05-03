@@ -19,12 +19,12 @@ const JoinUs = ({}) => {
             Unforgettable Meal
           </h1>
           <p className="max-w-[450px] text-center font-[600] leading-[160%] text-[#ffff]">
-            Whether it&rsquo;s an intimate dinner or a grand celebration, Tugra
+            Whether it’s an intimate dinner or a grand celebration, Tugra
             invites you to embark on an extraordinary culinary journey. From
-            masterfully curated flavours to the finest hand-selected
-            ingredients, every dish embodies our passion for excellence. Step
-            into a dining experience where innovation meets tradition, and each
-            bite tells a story of elegance, care, and unforgettable taste.
+            masterfully curated flavors to the finest hand-selected ingredients,
+            every dish embodies our passion for excellence. Step into a dining
+            experience where innovation meets tradition, and each bite tells a
+            story of elegance, care, and unforgettable taste.
           </p>
           <Link href={"/table-booking"}>
             <Button
