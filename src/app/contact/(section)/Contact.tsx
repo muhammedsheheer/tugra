@@ -223,7 +223,7 @@ const Contact = ({}) => {
                   </div>
                   <div className="flex w-full flex-col pt-7 lg:flex-row">
                     <Button
-                      className="font-bai w-full rounded-2xl bg-white py-6 text-black hover:bg-black hover:text-white"
+                      className="font-bai w-full rounded-2xl bg-[#C9AB81] py-6 text-black hover:bg-[#FEC679]"
                       disabled={bookTableMutation.isPending}
                     >
                       Contact US
@@ -246,7 +246,7 @@ const Contact = ({}) => {
       <div className="flex w-full overflow-hidden">
         <Image
           className="h-full w-full object-cover lg:h-[500px]"
-          src="/images/about-us/image5.jpeg"
+          src="/images/about-us/5.jpg"
           alt="bottom"
           width={966}
           height={96}
