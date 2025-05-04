@@ -159,11 +159,10 @@ const Footer = ({}) => {
                   target="_blank"
                   className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
                 >
-                  44 Station Approach, <br /> Hayes, Bromley BR2 7EJ, United
-                  Kingdom
+                  9-11, Market Street,  <br /> Preston, United Kingdom,
                 </Link>
                 <Link
-                  href={"mailto:info@humowatford.com"}
+                  href={"mailto:info@tugrahayes.co.uk"}
                   className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
                 >
                   info@tugrahayes.co.uk
