@@ -22,7 +22,7 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
         <SheetHeader>
           <SheetTitle>
             <Image
-              src="/images/home/hero/logo.png"
+              src="/images/home/hero/logo-tugra.png"
               width={162}
               height={35}
               alt="Foodo"
