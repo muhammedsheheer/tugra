@@ -51,7 +51,7 @@ const Navbar = ({
           <div>
             <Link href={"/"}>
               <Image
-                src={"/images/home/hero/logo.png"}
+                src={"/images/home/hero/logo-tugra.png"}
                 width={281}
                 height={74}
                 alt="logo"
