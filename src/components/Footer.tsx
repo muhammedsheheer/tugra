@@ -64,12 +64,11 @@ const Footer = ({}) => {
             </div>
             <div className="flex flex-col gap-1">
               <Link
-                href={"https://g.co/kgs/qNeM2a6"}
+                href={"https://g.co/kgs/A9XarPF"}
                 target="_blank"
                 className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
               >
-                44 Station Approach, Hayes, Bromley <br /> BR2 7EJ, United
-                Kingdom
+                9-11, Market Street, Preston, United Kingdom
               </Link>
               <Link
                 href={"mailto:info@humowatford.com"}
