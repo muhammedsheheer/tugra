@@ -18,12 +18,7 @@ const About: React.FC = () => {
           viewport={{ once: false }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          Our journey started in September 2017 with two very passionate chefs
-          and two managers (Hoja-Iso, Janer). Our mission is to reflect our
-          passion and enthusiasm for Turkish cuisine through our very unique
-          menu and delicately sources authentic ingredients. This is a stand
-          alone, an individual restaurant with no other branches. We are in
-          Hayes-Bromley serving contemporary Mediterranean Food” 
+          At Tugra Meathouse, our first priority is to ensure that our guests spend time with their families in a comfortable, safe and delicious way and that we can turn their visit into a fun experience with our great food. In addition to all this, Tugra Meathouse presents our guests with unique local and international meats and seafood prepared by our Executive Chef and their team. In doing so, we are adding a fantastic culinary taste experience to our renowned hospitality, which positions Turkey among the most ambitious sectors worldwide. In each of our dishes, locally inspired flavors are skillfully prepared, bringing together traditional recipes with modern interpretations. The prominence of carefully selected local ingredients, fresh and thoughtfully chosen, is another notable feature. Head Chef creativity and experience ensure that each dish transforms into a culinary masterpiece.
         </motion.p>
       </div>
       <div className="absolute -top-24 left-44 z-0 hidden md:block">
