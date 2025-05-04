@@ -305,8 +305,8 @@ export function Highlights() {
 
             {/* Add more items here as needed */}
           </CarouselContent>
-          <CarouselPrevious className="border-[#0E171A]" />
-          <CarouselNext className="border-[#0E171A]" />
+{/*           <CarouselPrevious className="border-[#0E171A]" />
+          <CarouselNext className="border-[#0E171A]" /> */}
         </Carousel>
       </div>
     </section>
