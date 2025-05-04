@@ -71,16 +71,16 @@ const Footer = ({}) => {
                 9-11, Market Street, Preston, United Kingdom
               </Link>
               <Link
-                href={"mailto:info@humowatford.com"}
+                href={"mailto:info@tugra.co.uk"}
                 className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
               >
-                info@tugrahayes.co.uk
+                info@tugra.co.uk
               </Link>
               <Link
-                href={"tele:+442084629898"}
+                href={"tele:+441772973514"}
                 className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
               >
-                +44 20 8462 9898
+                01772973514
               </Link>
             </div>
           </div>
@@ -162,16 +162,16 @@ const Footer = ({}) => {
                   9-11, Market Street,  <br /> Preston, United Kingdom,
                 </Link>
                 <Link
-                  href={"mailto:info@tugrahayes.co.uk"}
+                  href={"mailto:info@tugra.co.uk"}
                   className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
                 >
-                  info@tugrahayes.co.uk
+                  info@tugra.co.uk
                 </Link>
                 <Link
-                  href={"tele:+442084629898"}
+                  href={"tele:01772973514"}
                   className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
                 >
-                  +44 20 8462 9898
+                  01772973514
                 </Link>
               </div>
             </div>
