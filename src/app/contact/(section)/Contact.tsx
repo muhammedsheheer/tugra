@@ -90,8 +90,7 @@ const Contact = ({}) => {
                 <div className="flex flex-col gap-4">
                   <Link href={"https://g.co/kgs/qNeM2a6"} target="_blank">
                     <p className="font-roboto text-white">
-                      44 Station Approach, Hayes, Bromley <br /> BR2 7EJ, United
-                      Kingdom
+                      9-11, Market Street, Preston, United Kingdom
                     </p>
                   </Link>
                   <Link href={"https://g.co/kgs/qNeM2a6"} target="_blank">
@@ -109,7 +108,7 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="tel:+441234567890" className="">+44 1234 567890</Link>
+                  <Link href="tel:01772973514" className="">01772973514</Link>
                 </div>
               </div> */}
               <div className="flex items-center gap-6">
@@ -119,8 +118,8 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="font-roboto flex flex-col gap-4">
-                  <Link href="tel:+442084629898" className="text-white">
-                    +44 20 8462 9898
+                  <Link href="tel:01772973514" className="text-white">
+                    01772973514
                   </Link>
                 </div>
               </div>
