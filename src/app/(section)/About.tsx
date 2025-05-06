@@ -70,7 +70,7 @@ const About: React.FC = () => {
             T
           </motion.h1>
           <motion.img
-            src={"/images/home/about/image.png"}
+            src={"/images/home/about/tugra-u.jpg"}
             width={160}
             height={160}
             alt="logo"
