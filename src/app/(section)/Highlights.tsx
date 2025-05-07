@@ -178,56 +178,71 @@ export function Highlights() {
           <CarouselContent className="md:ml-4">
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
               <div className="relative p-1">
-                <div className="absolute p-4 md:p-6">
-                  <Image
-                    src="/images/home/highlights/image1.png"
+                <div className="absolute border p-4 md:p-6">
+                  <motion.img
+                    src="/images/home/highlights/1.jpg"
                     alt="frame 1"
                     width={500} // specify width
                     height={300} // specify height
+                    initial={{ opacity: 0, y: 50, scale: 0.8 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                    viewport={{ once: false, amount: 0.5 }}
+                    transition={{ duration: 1.5, ease: "easeOut" }}
+                    className="h-auto w-full object-cover md:h-[350px]"
                   />
                 </div>
-                <Image
+                {/* <Image
                   src="/images/home/highlights/f1.png"
                   alt="frame 1"
                   width={500} // specify width
                   height={300} // specify height
-                />
+                /> */}
               </div>
             </CarouselItem>
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
               <div className="relative p-1">
-                <div className="absolute p-5 md:p-10">
-                  <Image
-                    src="/images/home/highlights/image2.png"
+                <div className="absolute border p-4 md:p-6">
+                  <motion.img
+                    src="/images/home/highlights/2.jpg"
                     alt="frame 1"
                     width={500} // specify width
                     height={300} // specify height
+                    initial={{ opacity: 0, y: 50, scale: 0.8 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                    viewport={{ once: false, amount: 0.5 }}
+                    transition={{ duration: 1.5, ease: "easeOut" }}
+                    className="h-auto w-full object-cover md:h-[350px]"
                   />
                 </div>
-                <Image
+                {/* <Image
                   src="/images/home/highlights/f2.png"
                   alt="frame 2"
                   width={500}
                   height={300}
-                />
+                /> */}
               </div>
             </CarouselItem>
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
               <div className="relative p-1">
-                <div className="absolute p-4 md:p-6">
-                  <Image
-                    src="/images/home/highlights/image3.png"
+                <div className="absolute border p-4 md:p-6">
+                  <motion.img
+                    src="/images/home/highlights/3.jpg"
                     alt="frame 1"
                     width={500} // specify width
                     height={300} // specify height
+                    initial={{ opacity: 0, y: 50, scale: 0.8 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                    viewport={{ once: false, amount: 0.5 }}
+                    transition={{ duration: 1.5, ease: "easeOut" }}
+                    className="h-auto w-full object-cover md:h-[350px]"
                   />
                 </div>
-                <Image
+                {/* <Image
                   src="/images/home/highlights/f3.png"
                   alt="frame 3"
                   width={500}
                   height={300}
-                />
+                /> */}
               </div>
             </CarouselItem>
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
@@ -305,7 +320,7 @@ export function Highlights() {
 
             {/* Add more items here as needed */}
           </CarouselContent>
-{/*           <CarouselPrevious className="border-[#0E171A]" />
+          {/*           <CarouselPrevious className="border-[#0E171A]" />
           <CarouselNext className="border-[#0E171A]" /> */}
         </Carousel>
       </div>

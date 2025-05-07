@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         Your browser does not support the video tag.
       </video>
 
-      <div className="absolute inset-0"></div>
+      <div className="absolute inset-0 z-0 bg-black/50"></div>
 
       {/* <div className="relative z-40 flex h-full flex-col items-center justify-center gap-3 text-white md:mr-[50%]">
         <Image
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
         />
       </div> */}
 
-      <div className="z-5 absolute left-0 top-0 h-full w-full "></div>
+      <div className="z-5 absolute left-0 top-0 h-full w-full"></div>
     </section>
   );
 };
