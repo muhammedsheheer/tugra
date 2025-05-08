@@ -18,7 +18,14 @@ const About: React.FC = () => {
           viewport={{ once: false }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          At Tugra Meathouse, our first priority is to ensure that our guests spend time with their families in a comfortable, safe and delicious way and that we can turn their visit into a fun experience with our great food. In addition to all this, Tugra Meathouse presents our guests with unique local and international meats and seafood prepared by our Executive Chef and their team. The prominence of carefully selected local ingredients, fresh and thoughtfully chosen, is another notable feature.
+          At Tugra Meathouse, our first priority is to ensure that our guests
+          spend time with their families in a comfortable, safe and delicious
+          way and that we can turn their visit into a fun experience with our
+          great food. In addition to all this, Tugra Meathouse presents our
+          guests with unique local and international meats and seafood prepared
+          by our Executive Chef and their team. The prominence of carefully
+          selected local ingredients, fresh and thoughtfully chosen, is another
+          notable feature.
         </motion.p>
       </div>
       <div className="absolute -top-24 left-44 z-0 hidden md:block">
@@ -48,7 +55,14 @@ const About: React.FC = () => {
               viewport={{ once: false }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             >
-          At Tugra Meathouse, our first priority is to ensure that our guests spend time with their families in a comfortable, safe and delicious way and that we can turn their visit into a fun experience with our great food. In addition to all this, Tugra Meathouse presents our guests with unique local and international meats and seafood prepared by our Executive Chef and their team. The prominence of carefully selected local ingredients, fresh and thoughtfully chosen, is another notable feature.
+              At Tugra Meathouse, our first priority is to ensure that our
+              guests spend time with their families in a comfortable, safe and
+              delicious way and that we can turn their visit into a fun
+              experience with our great food. In addition to all this, Tugra
+              Meathouse presents our guests with unique local and international
+              meats and seafood prepared by our Executive Chef and their team.
+              The prominence of carefully selected local ingredients, fresh and
+              thoughtfully chosen, is another notable feature.
             </motion.p>
           </div>
         </div>
@@ -74,7 +88,7 @@ const About: React.FC = () => {
             width={160}
             height={160}
             alt="logo"
-            className="z-50 mt-5 h-28 md:mt-24 md:h-96 md:w-80"
+            className="z-50 mt-5 h-28 rounded-b-full md:mt-24 md:h-96 md:w-80"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
