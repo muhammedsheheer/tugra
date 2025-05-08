@@ -64,7 +64,7 @@ const Footer = ({}) => {
             </div>
             <div className="flex flex-col gap-1">
               <Link
-                href={"https://g.co/kgs/A9XarPF"}
+                href={"https://g.co/kgs/QzqatSV"}
                 target="_blank"
                 className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
               >
@@ -155,11 +155,11 @@ const Footer = ({}) => {
               </div>
               <div className="flex flex-col items-end gap-1">
                 <Link
-                  href={"https://g.co/kgs/qNeM2a6"}
+                  href={"https://g.co/kgs/QzqatSV"}
                   target="_blank"
                   className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
                 >
-                  9-11, Market Street,  <br /> Preston, United Kingdom,
+                  9-11, Market Street, <br /> Preston, United Kingdom,
                 </Link>
                 <Link
                   href={"mailto:info@tugra.co.uk"}
@@ -216,7 +216,7 @@ const Footer = ({}) => {
             <Icons.facebook />
           </Link>
           <Link
-            href={"https://g.co/kgs/qNeM2a6"}
+            href={"https://g.co/kgs/QzqatSV"}
             target="_blank"
             className="text-[#CFAC6A]"
           >

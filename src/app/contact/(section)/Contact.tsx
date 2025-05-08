@@ -88,12 +88,12 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href={"https://g.co/kgs/qNeM2a6"} target="_blank">
+                  <Link href={"https://g.co/kgs/QzqatSV"} target="_blank">
                     <p className="font-roboto text-white">
                       9-11, Market Street, Preston, United Kingdom
                     </p>
                   </Link>
-                  <Link href={"https://g.co/kgs/qNeM2a6"} target="_blank">
+                  <Link href={"https://g.co/kgs/QzqatSV"} target="_blank">
                     <p className="flex items-center gap-2 text-sm text-white">
                       <span className="font-roboto">Get Direction</span>
                       <ArrowRight className="text-white" />
@@ -117,7 +117,7 @@ const Contact = ({}) => {
                     <Phone className="text-white" />
                   </div>
                 </div>
-                <div className="font-roboto flex flex-col gap-4">
+                <div className="flex flex-col gap-4 font-roboto">
                   <Link href="tel:01772973514" className="text-white">
                     01772973514
                   </Link>
@@ -136,7 +136,7 @@ const Contact = ({}) => {
                 >
                   <Icons.facebook className="text-white" />
                 </Link>
-                <Link href={"https://g.co/kgs/qNeM2a6"} target="_blank">
+                <Link href={"https://g.co/kgs/QzqatSV"} target="_blank">
                   <Icons.google className="text-white" />
                 </Link>
                 {/* <Link href='https://www.facebook.com/Istanbulwoolton/'>

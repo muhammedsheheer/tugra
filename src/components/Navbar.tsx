@@ -66,22 +66,23 @@ const Navbar = ({
             >
               Home<span className="text-xl text-[#FEC679]">+</span>
             </Link>
-            <Link
+            {/* <Link
               href={"/menu"}
               className="font-open_sans text-sm font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
               Menu<span className="text-xl text-[#FEC679]">+</span>
-            </Link>
+            </Link> */}
+
             {/* <Link
               href={"/about-us"}
               className="font-open_sans text-sm font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
               About<span className="text-xl text-[#FEC679]">+</span>
             </Link> */}
-            {/* <DropdownMenu>
+            <DropdownMenu>
               <DropdownMenuTrigger asChild className="cursor-pointer">
                 <div className="font-open_sans text-sm font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#fff]">
-                  Food<span className="text-xl text-[#FEC679]">+</span>
+                  Menu<span className="text-xl text-[#FEC679]">+</span>
                 </div>
               </DropdownMenuTrigger>
               <DropdownMenuContent className="w-56 rounded-none bg-[#070d0f]">
@@ -89,19 +90,34 @@ const Navbar = ({
                   value={positiond}
                   onValueChange={setPositiond}
                 >
-                  <Link href="/a-la-carte">
+                  <Link href="/menu">
                     <DropdownMenuRadioItem value="carte">
-                      A La Carte
+                      Main Menu
                     </DropdownMenuRadioItem>
                   </Link>
-                  <Link href="/breakfast-lunch">
+                  <Link href="/pdf/lunch _menu.pdf" target="_blank">
                     <DropdownMenuRadioItem value="lunch">
-                      Breakfast & Lunch
+                      Lunch Menu
+                    </DropdownMenuRadioItem>
+                  </Link>
+                  <Link href="/pdf/dessert _menu.pdf" target="_blank">
+                    <DropdownMenuRadioItem value="lunch">
+                      Dessert Menu
+                    </DropdownMenuRadioItem>
+                  </Link>
+                  <Link href="/pdf/kids_menu.pdf" target="_blank">
+                    <DropdownMenuRadioItem value="lunch">
+                      Kids Menu
+                    </DropdownMenuRadioItem>
+                  </Link>
+                  <Link href="/pdf/party_menu.pdf" target="_blank">
+                    <DropdownMenuRadioItem value="lunch">
+                      Party Menu
                     </DropdownMenuRadioItem>
                   </Link>
                 </DropdownMenuRadioGroup>
               </DropdownMenuContent>
-            </DropdownMenu> */}
+            </DropdownMenu>
             {/* <Link
               href="/drinks"
               className="font-open_sans text-sm font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
