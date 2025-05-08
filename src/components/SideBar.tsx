@@ -1,3 +1,4 @@
+"use client";
 import {
   Sheet,
   SheetContent,
@@ -8,13 +9,34 @@ import {
 } from "@/components/ui/sheet";
 import Image from "next/image";
 import Link from "next/link";
-import { type FC } from "react";
+import { useEffect, useState, type FC } from "react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "./ui/dropdown-menu";
 
 interface SidebarProps {
   children: React.ReactNode;
 }
 
 const Sidebar: FC<SidebarProps> = ({ children }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    const d = localStorage.getItem("positiond");
+    if (d !== null) {
+      setPositiond(d);
+    }
+  }, []);
+  const [positiond, setPositiond] = useState<string>("");
+  useEffect(() => {
+    if (positiond) {
+      localStorage.setItem("positiond", positiond);
+    }
+  }, [positiond]);
   return (
     <Sheet>
       <SheetTrigger asChild>{children}</SheetTrigger>
@@ -36,12 +58,51 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               href="/menu"
               className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
             >
               Menu
-            </Link>
+            </Link> */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild className="cursor-pointer">
+                <div className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white">
+                  Menu
+                </div>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="w-56 rounded-none bg-[#070d0f]">
+                <DropdownMenuRadioGroup
+                  value={positiond}
+                  onValueChange={setPositiond}
+                >
+                  <Link href="/menu">
+                    <DropdownMenuRadioItem value="carte">
+                      Main Menu
+                    </DropdownMenuRadioItem>
+                  </Link>
+                  <Link href="/pdf/lunch _menu.pdf" target="_blank">
+                    <DropdownMenuRadioItem value="lunch">
+                      Lunch Menu
+                    </DropdownMenuRadioItem>
+                  </Link>
+                  <Link href="/pdf/dessert _menu.pdf" target="_blank">
+                    <DropdownMenuRadioItem value="lunch">
+                      Dessert Menu
+                    </DropdownMenuRadioItem>
+                  </Link>
+                  <Link href="/pdf/kids_menu.pdf" target="_blank">
+                    <DropdownMenuRadioItem value="lunch">
+                      Kids Menu
+                    </DropdownMenuRadioItem>
+                  </Link>
+                  <Link href="/pdf/party_menu.pdf" target="_blank">
+                    <DropdownMenuRadioItem value="lunch">
+                      Party Menu
+                    </DropdownMenuRadioItem>
+                  </Link>
+                </DropdownMenuRadioGroup>
+              </DropdownMenuContent>
+            </DropdownMenu>
             <Link
               href="/about-us"
               className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
