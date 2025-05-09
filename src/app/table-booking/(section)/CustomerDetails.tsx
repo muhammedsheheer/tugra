@@ -70,7 +70,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           </div>
         </div>
       </div>
-      <p className="font-cormorant w-full text-2xl font-semibold text-white md:text-3xl">
+      <p className="w-full font-cormorant text-2xl font-semibold text-white md:text-3xl">
         Complete your request
       </p>
       <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -126,7 +126,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
             </FormItem>
           )}
         />
-        <FormField
+        {/* <FormField
           control={form.control}
           name="place"
           render={({ field }) => (
@@ -146,7 +146,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
               <FormMessage />
             </FormItem>
           )}
-        />
+        /> */}
       </div>
 
       <FormField
