@@ -90,7 +90,7 @@ const Navbar = ({
                   value={positiond}
                   onValueChange={setPositiond}
                 >
-                  <Link href="/menu">
+                  <Link href="/pdf/Main_Menu.pdf" target="_blank">
                     <DropdownMenuRadioItem value="carte">
                       Main Menu
                     </DropdownMenuRadioItem>
@@ -129,6 +129,12 @@ const Navbar = ({
               className="font-open_sans text-sm font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
               Reservation<span className="text-xl text-[#FEC679]">+</span>
+            </Link>
+            <Link
+              href={"/menu"}
+              className="font-open_sans text-sm font-[400] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
+            >
+              Order Online<span className="text-xl text-[#FEC679]">+</span>
             </Link>
             <Link
               href={"/contact"}

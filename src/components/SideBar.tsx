@@ -75,7 +75,7 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
                   value={positiond}
                   onValueChange={setPositiond}
                 >
-                  <Link href="/menu">
+                  <Link href="/pdf/Main_Menu.pdf">
                     <DropdownMenuRadioItem value="carte">
                       Main Menu
                     </DropdownMenuRadioItem>
@@ -108,6 +108,12 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
               className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
             >
               Our Story
+            </Link>
+            <Link
+              href="/menu"
+              className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
+            >
+              Order Online
             </Link>
             <Link
               href="/contact"
