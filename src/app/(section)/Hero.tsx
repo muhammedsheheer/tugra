@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         poster="https://d8q1b3smcycac.cloudfront.net/tugra/tugra-thumb.png"
       >
         <source
-          src="https://d8q1b3smcycac.cloudfront.net/tugra/tugra-website.mp4"
+          src="https://d8q1b3smcycac.cloudfront.net/tugra/tugra-et-web.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
