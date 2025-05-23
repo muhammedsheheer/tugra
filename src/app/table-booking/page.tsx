@@ -2,6 +2,7 @@ import Hero from "@/app/table-booking/(section)/Hero";
 import TableBooking from "@/app/table-booking/(section)/TableBooking";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import TableBookingN from "./(section)/TableBookingN";
 
 export default function HomePage() {
   return (
@@ -9,7 +10,8 @@ export default function HomePage() {
       <div className="flex h-full w-full flex-col items-center justify-center bg-[#070d0f]">
         <Navbar position="absolute" />
         <Hero />
-        <TableBooking />
+        {/* <TableBooking /> */}
+        <TableBookingN />
         <Footer />
       </div>
     </main>
