@@ -37,6 +37,11 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
       localStorage.setItem("positiond", positiond);
     }
   }, [positiond]);
+
+  const [showSubMenu, setShowSubMenu] = useState(false);
+
+  const toggleSubMenu = () => setShowSubMenu((prev) => !prev);
+
   return (
     <Sheet>
       <SheetTrigger asChild>{children}</SheetTrigger>
@@ -54,88 +59,100 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
           <SheetDescription className="flex w-full flex-col items-center justify-center gap-7 pt-14">
             <Link
               href="/"
-              className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
             >
               Home
             </Link>
+            <button
+              onClick={toggleSubMenu}
+              className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
+            >
+              <span>Menu</span>
+            </button>
+            {showSubMenu && (
+              <div className="ml-6 flex w-full flex-col gap-6 pb-4 text-sm text-white">
+                <Link
+                  className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
+                  href="/pdf/Main_Menu.pdf"
+                  target="_blank"
+                  // className="hover:underline"
+                >
+                  Main Menu
+                </Link>
+                <Link
+                  className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
+                  href="/pdf/lunch _menu.pdf"
+                  target="_blank"
+                  // className="hover:underline"
+                >
+                  Lunch Menu
+                </Link>
+                <Link
+                  className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
+                  href="/pdf/dessert _menu.pdf"
+                  target="_blank"
+                  // className="hover:underline"
+                >
+                  Dessert Menu
+                </Link>
+                <Link
+                  className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
+                  href="/pdf/kids_menu.pdf"
+                  target="_blank"
+                  // className="hover:underline"
+                >
+                  Kids Menu
+                </Link>
+                <Link
+                  className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
+                  href="/pdf/party_menu.pdf"
+                  target="_blank"
+                  // className="hover:underline"
+                >
+                  Party Menu
+                </Link>
+              </div>
+            )}
             {/* <Link
               href="/menu"
-              className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
             >
               Menu
             </Link> */}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild className="cursor-pointer">
-                <div className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white">
-                  Menu
-                </div>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-56 rounded-none bg-[#070d0f]">
-                <DropdownMenuRadioGroup
-                  value={positiond}
-                  onValueChange={setPositiond}
-                >
-                  <Link href="/pdf/Main_Menu.pdf">
-                    <DropdownMenuRadioItem value="carte">
-                      Main Menu
-                    </DropdownMenuRadioItem>
-                  </Link>
-                  <Link href="/pdf/lunch _menu.pdf" target="_blank">
-                    <DropdownMenuRadioItem value="lunch">
-                      Lunch Menu
-                    </DropdownMenuRadioItem>
-                  </Link>
-                  <Link href="/pdf/dessert _menu.pdf" target="_blank">
-                    <DropdownMenuRadioItem value="lunch">
-                      Dessert Menu
-                    </DropdownMenuRadioItem>
-                  </Link>
-                  <Link href="/pdf/kids_menu.pdf" target="_blank">
-                    <DropdownMenuRadioItem value="lunch">
-                      Kids Menu
-                    </DropdownMenuRadioItem>
-                  </Link>
-                  <Link href="/pdf/party_menu.pdf" target="_blank">
-                    <DropdownMenuRadioItem value="lunch">
-                      Party Menu
-                    </DropdownMenuRadioItem>
-                  </Link>
-                </DropdownMenuRadioGroup>
-              </DropdownMenuContent>
-            </DropdownMenu>
+
             <Link
               href="/about-us"
-              className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
             >
               Our Story
             </Link>
             <Link
               href="/menu"
-              className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
             >
               Order Online
             </Link>
             <Link
               href="/contact"
-              className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
             >
               Contact
             </Link>
             <Link
               href="/table-booking"
-              className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
             >
               Table Booking
             </Link>
             {/* <Link
               href=""
-              className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
             >
               Food
             </Link>
             <Link
               href="/drinks"
-              className="flex w-full justify-center p-0 font-birthstone text-4xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-cormorant text-3xl font-normal text-white"
             >
               Drinks
             </Link> */}

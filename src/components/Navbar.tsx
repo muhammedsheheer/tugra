@@ -91,27 +91,27 @@ const Navbar = ({
                   onValueChange={setPositiond}
                 >
                   <Link href="/pdf/Main_Menu.pdf" target="_blank">
-                    <DropdownMenuRadioItem value="carte">
+                    <DropdownMenuRadioItem value="Main_Menu">
                       Main Menu
                     </DropdownMenuRadioItem>
                   </Link>
                   <Link href="/pdf/lunch _menu.pdf" target="_blank">
-                    <DropdownMenuRadioItem value="lunch">
+                    <DropdownMenuRadioItem value="lunch _menu">
                       Lunch Menu
                     </DropdownMenuRadioItem>
                   </Link>
                   <Link href="/pdf/dessert _menu.pdf" target="_blank">
-                    <DropdownMenuRadioItem value="lunch">
+                    <DropdownMenuRadioItem value="dessert _menu">
                       Dessert Menu
                     </DropdownMenuRadioItem>
                   </Link>
                   <Link href="/pdf/kids_menu.pdf" target="_blank">
-                    <DropdownMenuRadioItem value="lunch">
+                    <DropdownMenuRadioItem value="kids_menu">
                       Kids Menu
                     </DropdownMenuRadioItem>
                   </Link>
                   <Link href="/pdf/party_menu.pdf" target="_blank">
-                    <DropdownMenuRadioItem value="lunch">
+                    <DropdownMenuRadioItem value="party_menu">
                       Party Menu
                     </DropdownMenuRadioItem>
                   </Link>
