@@ -77,7 +77,7 @@ const Footer = ({}) => {
                 info@tugra.co.uk
               </Link>
               <Link
-                href={"tele:+441772973514"}
+                href={"tel:+441772973514"}
                 className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
               >
                 01772973514
@@ -168,7 +168,7 @@ const Footer = ({}) => {
                   info@tugra.co.uk
                 </Link>
                 <Link
-                  href={"tele:01772973514"}
+                  href={"tel:01772973514"}
                   className="text-end font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start"
                 >
                   01772973514
