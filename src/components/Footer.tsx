@@ -92,19 +92,13 @@ const Footer = ({}) => {
               Opening hours
             </Link>
             <p className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start">
-              Monday 12:00pm to 10:30pm
-              <br />
-              Tuesday closed
-              <br />
-              Wednesday 12:00pm to 11:00pm
-              <br />
-              Thursday 12:00pm to 11:30pm
-              <br />
-              Friday 12:00pm to 12:00am
-              <br />
-              Saturday 12:00pm to 12:00am
-              <br />
-              Sunday 12:00pm to 10:00pm
+              Monday 12–10 pm <br />
+              Tuesday 12–10 pm <br />
+              Wednesday 12–10 pm <br />
+              Thursday 12–10 pm <br />
+              Friday 12–11 pm <br />
+              Saturday 12–11 pm <br />
+              Sunday 12–10 pm
             </p>
           </div>
         </div>
@@ -183,19 +177,13 @@ const Footer = ({}) => {
                 Opening hours
               </span>
               <p className="text-center font-open_sans text-sm font-[400] uppercase tracking-[2px] text-[#CFAC6A] md:text-start">
-                Monday 12:00pm to 10:30pm
-                <br />
-                Tuesday closed
-                <br />
-                Wednesday 12:00pm to 11:00pm
-                <br />
-                Thursday 12:00pm to 11:30pm
-                <br />
-                Friday 12:00pm to 12:00am
-                <br />
-                Saturday 12:00pm to 12:00am
-                <br />
-                Sunday 12:00pm to 10:00pm
+                Monday 12–10 pm <br />
+                Tuesday 12–10 pm <br />
+                Wednesday 12–10 pm <br />
+                Thursday 12–10 pm <br />
+                Friday 12–11 pm <br />
+                Saturday 12–11 pm <br />
+                Sunday 12–10 pm
               </p>
             </div>
           </div>
